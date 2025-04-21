@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Esovault (ESOV) Token</title>
+  <link href="style.css" rel="stylesheet" />
+  <script>
+    async function addToMetamask() {
+      try {
+        await window.ethereum.request({
+          method: 'wallet_watchAsset',
+          params: {
+            type: 'ERC20',
+            options: {
+              address: '0xa942AB4249d3c4a10896386C404A896428e3f7Ab',
+              symbol: 'ESOV',
+              decimals: 18,
+              image: 'logo.png'
+            },
+          },
+        });
+      } catch (error) {
+        console.error(error);
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <img src="logo.png" alt="Esovault logo" class="logo" />
+    <h1>Esovault (ESOV)</h1>
+    <p>Esovault è una criptovaluta pensata per supportare l’arte, il collezionismo digitale e la creazione di ecosistemi NFT su blockchain. Sicuro, scalabile e pronto per integrarsi nel Web3.</p>
+    <div class="info">
+      <p><strong>Contratto:</strong> <a href="https://polygonscan.com/address/0xa942AB4249d3c4a10896386C404A896428e3f7Ab" target="_blank">0xa942...f7Ab</a></p>
+      <p><strong>Max Supply:</strong> 100,000,000 ESOV</p>
+    </div>
+    <button onclick="addToMetamask()">➕ Aggiungi ESOV a MetaMask</button>
+  </div>
+</body>
+</html>
