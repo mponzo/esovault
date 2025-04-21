@@ -1,6 +1,19 @@
 {
   "name": "Esovault Token List",
-  "logoURI": "https://gold-elegant-spoonbill-837.mypinata.cloud/ipfs/bafkreidxddf3eloczfkuknktwtxc7vmukqlimvg7s6usrsalkr4xdb4jjm",
+  "timestamp": "2025-04-22T12:00:00+00:00",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "logoURI": "ipfs://bafkreidxddf3eloczfkuknktwtxc7vmukqlimvg7s6usrsalkr4xdb4jjm",
+  "keywords": [
+    "esovault",
+    "art",
+    "nft",
+    "erc20",
+    "polygon"
+  ],
   "tokens": [
     {
       "chainId": 137,
@@ -8,7 +21,7 @@
       "symbol": "ESOV",
       "name": "Esovault",
       "decimals": 18,
-      "logoURI": "https://gold-elegant-spoonbill-837.mypinata.cloud/ipfs/bafkreidxddf3eloczfkuknktwtxc7vmukqlimvg7s6usrsalkr4xdb4jjm"
+      "logoURI": "https://esovault.github.io/logo.png"
     }
   ]
 }
