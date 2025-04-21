@@ -6,7 +6,7 @@
     "minor": 0,
     "patch": 0
   },
-  "logoURI": "ipfs://bafkreidxddf3eloczfkuknktwtxc7vmukqlimvg7s6usrsalkr4xdb4jjm",
+  "logoURI": "https://gold-elegant-spoonbill-837.mypinata.cloud/ipfs/bafkreidxddf3eloczfkuknktwtxc7vmukqlimvg7s6usrsalkr4xdb4jjm",
   "keywords": [
     "esovault",
     "art",
@@ -21,7 +21,7 @@
       "symbol": "ESOV",
       "name": "Esovault",
       "decimals": 18,
-      "logoURI": "ipfs://bafkreidxddf3eloczfkuknktwtxc7vmukqlimvg7s6usrsalkr4xdb4jjm",
+      "logoURI": "https://gold-elegant-spoonbill-837.mypinata.cloud/ipfs/bafkreidxddf3eloczfkuknktwtxc7vmukqlimvg7s6usrsalkr4xdb4jjm",
     }
   ]
 }
