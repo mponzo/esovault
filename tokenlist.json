@@ -1,0 +1,14 @@
+{
+  "name": "Esovault Token List",
+  "logoURI": "https://esovault.github.io/logo.png",
+  "tokens": [
+    {
+      "chainId": 137,
+      "address": "0xa942AB4249d3c4a10896386C404A896428e3f7Ab",
+      "symbol": "ESOV",
+      "name": "Esovault",
+      "decimals": 18,
+      "logoURI": "https://esovault.github.io/logo.png"
+    }
+  ]
+}
